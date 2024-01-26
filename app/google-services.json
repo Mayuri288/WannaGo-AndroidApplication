@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "363302094218",
+    "project_id": "fa22-android-geolocation-app",
+    "storage_bucket": "fa22-android-geolocation-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363302094218:android:8ed65ac0cd4245fc22f473",
+        "android_client_info": {
+          "package_name": "com.bignerdranch.android.wannago"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZS89BhsG5jkbwPlyt4N7qmGXNoEhwo_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

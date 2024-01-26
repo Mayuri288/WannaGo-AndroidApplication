@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.bignerdranch.android.wannago.Home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_restaurantFragment"
+            app:destination="@id/restaurantFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_parkFragment"
+            app:destination="@id/parkFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantFragment"
+        android:name="com.bignerdranch.android.wannago.Restaurants.RestaurantFragment"
+        android:label="RestaurantFragment" >
+        <action
+            android:id="@+id/action_restaurantFragment_to_restaurantDetailFragment"
+            app:destination="@id/restaurantDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/parkFragment"
+        android:name="com.bignerdranch.android.wannago.Parks.ParkFragment"
+        android:label="ParkFragment" >
+        <action
+            android:id="@+id/action_parkFragment_to_parkDetailFragment"
+            app:destination="@id/parkDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantDetailFragment"
+        android:name="com.bignerdranch.android.wannago.Restaurants.RestaurantDetailFragment"
+        android:label="RestaurantDetailFragment" >
+        <argument
+            android:name="location"
+            app:argType="com.google.android.gms.maps.model.LatLng" />
+    </fragment>
+    <fragment
+        android:id="@+id/parkDetailFragment"
+        android:name="com.bignerdranch.android.wannago.Parks.ParkDetailFragment"
+        android:label="ParkDetailFragment">
+    <argument
+        android:name="location"
+        app:argType="com.google.android.gms.maps.model.LatLng" />
+    </fragment>
+</navigation>

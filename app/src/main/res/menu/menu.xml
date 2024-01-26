@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/icons8_home_48"
+        />
+<item
+    android:id="@+id/restaurantFragment"
+    android:title="Restaurants"
+    android:icon="@drawable/icons8_restaurant_48"
+   />
+    <item
+        android:id="@+id/parkFragment"
+        android:title="Parks"
+        android:icon="@drawable/icons8_park_50"
+        />
+
+</menu>

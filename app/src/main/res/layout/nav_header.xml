@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#607D8B">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:src="@drawable/wannago_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icons8_restaurant_48"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wanna Go"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:layout_below="@id/imageViewProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wanna_go@gmail.com"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:layout_below="@id/textViewName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+</RelativeLayout>

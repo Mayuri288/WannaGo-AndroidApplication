@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WannaGo</string>
+    <string name="introduction">Welcome to Wannago, your ultimate companion for discovering parks and restaurants. Explore serene green spaces or satisfy your culinary cravings with Wannago. Click on the restaurant section for seamless navigation to the trendiest dining spots  and the parks section for tranquil green getaways. </string>
+    <string name="google_maps_api_key">AIzaSyCjGjwXinOFjDZoS8K_zrg5P3zzUMV7kzM</string>
+    <string name="default_web_client_id">363302094218-amkh02gf4j7qi6nbgec6ccttg2qfd80s.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,39 @@
+<!-- fragment_restaurant_detail.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/icon_image"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/icons8_park_65"
+        app:layout_constraintTop_toBottomOf="@+id/map_view" />
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        app:liteMode="true"
+        app:mapType="normal" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/map_view"
+        android:layout_marginTop="16dp"
+        tools:text="Latitude: " />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/latitude"
+        android:layout_marginTop="8dp"
+        tools:text="Longitude: " />
+</RelativeLayout>
